@@ -158,3 +158,95 @@ a:hover {
   color: var(--color-principal);
 }
 
+/* Banner */
+.banner-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: var(--color-secundario);
+}
+
+.banner-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.banner-description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Team */
+.team-container {
+  padding: 60px 0;
+}
+
+.team-intro-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.team-members-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.member-card {
+  width: 250px;
+  text-align: center;
+}
+
+.member-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.member-name {
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.member-bio {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Testimonials */
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.testimonials-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+}
+
+.testimonial-card .author {
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+
+
